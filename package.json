@@ -1,0 +1,15 @@
+{
+  "name": "load-balanced-app",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A quick app to put behind a load balancer that identifies which host is serving content",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "PX Slip <dev@pxslip.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dot": "^2.0.0-beta.1"
+  }
+}
